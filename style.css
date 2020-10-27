@@ -83,18 +83,24 @@ form{
   transition: all 4s ease-in-out;
 }
 
-input, textarea{
+.contact-form, textarea{
   background: transparent;
   border:none;
   outline:none;
   border-bottom: 1px solid grey;
   margin-bottom: 16px;
-  color: wheat;
+  color: whitesmoke;
+  width: 400px;
 }
 
 .form { 
   text-align: center;
+  width: 400px;
 }
 .map{
   float: right;
+}
+form-control{
+  outline: none;
+  border:none;
 }
